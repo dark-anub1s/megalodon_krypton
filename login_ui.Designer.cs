@@ -85,12 +85,12 @@ namespace megalodon
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(194)))), ((int)(((byte)(165)))));
             this.label1.Location = new System.Drawing.Point(231, 1);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(343, 20);
+            this.label1.Size = new System.Drawing.Size(391, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Megalodon: RSA Password Vault Login";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -100,7 +100,7 @@ namespace megalodon
             this.usernameBox.Location = new System.Drawing.Point(54, 305);
             this.usernameBox.Margin = new System.Windows.Forms.Padding(2);
             this.usernameBox.Name = "usernameBox";
-            this.usernameBox.Size = new System.Drawing.Size(225, 38);
+            this.usernameBox.Size = new System.Drawing.Size(225, 39);
             this.usernameBox.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(86)))), ((int)(((byte)(90)))));
             this.usernameBox.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.usernameBox.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -111,7 +111,7 @@ namespace megalodon
             this.usernameBox.StateCommon.Border.Rounding = 20;
             this.usernameBox.StateCommon.Border.Width = 1;
             this.usernameBox.StateCommon.Content.Color1 = System.Drawing.Color.White;
-            this.usernameBox.StateCommon.Content.Font = new System.Drawing.Font("PMingLiU", 15F);
+            this.usernameBox.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.usernameBox.StateCommon.Content.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.usernameBox.TabIndex = 1;
             this.usernameBox.Text = "Username";
@@ -149,7 +149,7 @@ namespace megalodon
             this.loginButton.StateCommon.Border.Width = 1;
             this.loginButton.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
             this.loginButton.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.loginButton.StateCommon.Content.ShortText.Font = new System.Drawing.Font("PMingLiU", 15F);
+            this.loginButton.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.loginButton.StatePressed.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(101)))), ((int)(((byte)(102)))));
             this.loginButton.StatePressed.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(79)))), ((int)(((byte)(67)))));
             this.loginButton.StatePressed.Back.ColorAngle = 135F;
@@ -211,7 +211,7 @@ namespace megalodon
             this.registerButton.StateCommon.Border.Width = 1;
             this.registerButton.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
             this.registerButton.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.registerButton.StateCommon.Content.ShortText.Font = new System.Drawing.Font("PMingLiU", 15F);
+            this.registerButton.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.registerButton.StatePressed.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(101)))), ((int)(((byte)(102)))));
             this.registerButton.StatePressed.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(79)))), ((int)(((byte)(67)))));
             this.registerButton.StatePressed.Back.ColorAngle = 135F;
@@ -242,10 +242,10 @@ namespace megalodon
             // 
             // rsaKey
             // 
-            this.rsaKey.Location = new System.Drawing.Point(470, 305);
+            this.rsaKey.Location = new System.Drawing.Point(441, 305);
             this.rsaKey.Margin = new System.Windows.Forms.Padding(2);
             this.rsaKey.Name = "rsaKey";
-            this.rsaKey.Size = new System.Drawing.Size(225, 38);
+            this.rsaKey.Size = new System.Drawing.Size(225, 39);
             this.rsaKey.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(86)))), ((int)(((byte)(90)))));
             this.rsaKey.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.rsaKey.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -256,14 +256,14 @@ namespace megalodon
             this.rsaKey.StateCommon.Border.Rounding = 20;
             this.rsaKey.StateCommon.Border.Width = 1;
             this.rsaKey.StateCommon.Content.Color1 = System.Drawing.Color.White;
-            this.rsaKey.StateCommon.Content.Font = new System.Drawing.Font("PMingLiU", 15F);
+            this.rsaKey.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.rsaKey.StateCommon.Content.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.rsaKey.TabIndex = 2;
             this.rsaKey.Text = "Private Key";
             // 
             // openKey
             // 
-            this.openKey.Location = new System.Drawing.Point(699, 305);
+            this.openKey.Location = new System.Drawing.Point(670, 305);
             this.openKey.Margin = new System.Windows.Forms.Padding(2);
             this.openKey.Name = "openKey";
             this.openKey.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(86)))), ((int)(((byte)(90)))));
@@ -279,7 +279,7 @@ namespace megalodon
             this.openKey.OverrideDefault.Border.Rounding = 20;
             this.openKey.OverrideDefault.Border.Width = 1;
             this.openKey.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.openKey.Size = new System.Drawing.Size(113, 43);
+            this.openKey.Size = new System.Drawing.Size(159, 45);
             this.openKey.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(86)))), ((int)(((byte)(90)))));
             this.openKey.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(194)))), ((int)(((byte)(165)))));
             this.openKey.StateCommon.Back.ColorAngle = 45F;
@@ -294,7 +294,7 @@ namespace megalodon
             this.openKey.StateCommon.Border.Width = 1;
             this.openKey.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
             this.openKey.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.openKey.StateCommon.Content.ShortText.Font = new System.Drawing.Font("PMingLiU", 15F);
+            this.openKey.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.openKey.StatePressed.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(101)))), ((int)(((byte)(102)))));
             this.openKey.StatePressed.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(79)))), ((int)(((byte)(67)))));
             this.openKey.StatePressed.Back.ColorAngle = 135F;
@@ -331,7 +331,7 @@ namespace megalodon
             // rsaIcon
             // 
             this.rsaIcon.Image = global::megalodon.Properties.Resources.private_rsa1;
-            this.rsaIcon.Location = new System.Drawing.Point(417, 302);
+            this.rsaIcon.Location = new System.Drawing.Point(388, 302);
             this.rsaIcon.Name = "rsaIcon";
             this.rsaIcon.Size = new System.Drawing.Size(48, 48);
             this.rsaIcon.TabIndex = 6;

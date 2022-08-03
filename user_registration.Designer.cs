@@ -85,11 +85,11 @@ namespace megalodon
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(194)))), ((int)(((byte)(165)))));
             this.label1.Location = new System.Drawing.Point(231, 1);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(352, 20);
+            this.label1.Size = new System.Drawing.Size(401, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Register For a Megalodon Vault Account";
             // 
@@ -97,7 +97,7 @@ namespace megalodon
             // 
             this.usernameBox.Location = new System.Drawing.Point(67, 302);
             this.usernameBox.Name = "usernameBox";
-            this.usernameBox.Size = new System.Drawing.Size(225, 38);
+            this.usernameBox.Size = new System.Drawing.Size(225, 39);
             this.usernameBox.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(86)))), ((int)(((byte)(90)))));
             this.usernameBox.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.usernameBox.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -107,7 +107,7 @@ namespace megalodon
             this.usernameBox.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.usernameBox.StateCommon.Border.Rounding = 20;
             this.usernameBox.StateCommon.Content.Color1 = System.Drawing.Color.White;
-            this.usernameBox.StateCommon.Content.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.usernameBox.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usernameBox.StateCommon.Content.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.usernameBox.TabIndex = 1;
             this.usernameBox.Text = "Username";
@@ -117,7 +117,7 @@ namespace megalodon
             // 
             this.rsaKeyBox.Location = new System.Drawing.Point(67, 380);
             this.rsaKeyBox.Name = "rsaKeyBox";
-            this.rsaKeyBox.Size = new System.Drawing.Size(225, 38);
+            this.rsaKeyBox.Size = new System.Drawing.Size(225, 39);
             this.rsaKeyBox.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(86)))), ((int)(((byte)(90)))));
             this.rsaKeyBox.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.rsaKeyBox.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -127,7 +127,7 @@ namespace megalodon
             this.rsaKeyBox.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.rsaKeyBox.StateCommon.Border.Rounding = 20;
             this.rsaKeyBox.StateCommon.Content.Color1 = System.Drawing.Color.White;
-            this.rsaKeyBox.StateCommon.Content.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rsaKeyBox.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rsaKeyBox.StateCommon.Content.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.rsaKeyBox.TabIndex = 3;
             this.rsaKeyBox.Text = "RSA Key Name";
@@ -149,7 +149,7 @@ namespace megalodon
             this.checkUsername.OverrideDefault.Border.Rounding = 20;
             this.checkUsername.OverrideDefault.Border.Width = 1;
             this.checkUsername.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.checkUsername.Size = new System.Drawing.Size(81, 42);
+            this.checkUsername.Size = new System.Drawing.Size(99, 46);
             this.checkUsername.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(86)))), ((int)(((byte)(90)))));
             this.checkUsername.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(194)))), ((int)(((byte)(165)))));
             this.checkUsername.StateCommon.Back.ColorAngle = 45F;
@@ -164,7 +164,7 @@ namespace megalodon
             this.checkUsername.StateCommon.Border.Width = 1;
             this.checkUsername.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
             this.checkUsername.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.checkUsername.StateCommon.Content.ShortText.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkUsername.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkUsername.StatePressed.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(101)))), ((int)(((byte)(102)))));
             this.checkUsername.StatePressed.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(79)))), ((int)(((byte)(67)))));
             this.checkUsername.StatePressed.Back.ColorAngle = 135F;
@@ -195,7 +195,7 @@ namespace megalodon
             // 
             // generateKey
             // 
-            this.generateKey.Location = new System.Drawing.Point(298, 380);
+            this.generateKey.Location = new System.Drawing.Point(298, 370);
             this.generateKey.Name = "generateKey";
             this.generateKey.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(86)))), ((int)(((byte)(90)))));
             this.generateKey.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(194)))), ((int)(((byte)(165)))));
@@ -210,7 +210,7 @@ namespace megalodon
             this.generateKey.OverrideDefault.Border.Rounding = 20;
             this.generateKey.OverrideDefault.Border.Width = 1;
             this.generateKey.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.generateKey.Size = new System.Drawing.Size(157, 42);
+            this.generateKey.Size = new System.Drawing.Size(179, 58);
             this.generateKey.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(86)))), ((int)(((byte)(90)))));
             this.generateKey.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(194)))), ((int)(((byte)(165)))));
             this.generateKey.StateCommon.Back.ColorAngle = 45F;
@@ -225,7 +225,7 @@ namespace megalodon
             this.generateKey.StateCommon.Border.Width = 1;
             this.generateKey.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
             this.generateKey.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.generateKey.StateCommon.Content.ShortText.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.generateKey.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.generateKey.StatePressed.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(101)))), ((int)(((byte)(102)))));
             this.generateKey.StatePressed.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(79)))), ((int)(((byte)(67)))));
             this.generateKey.StatePressed.Back.ColorAngle = 135F;
@@ -256,7 +256,7 @@ namespace megalodon
             // 
             // setupMFA
             // 
-            this.setupMFA.Location = new System.Drawing.Point(664, 380);
+            this.setupMFA.Location = new System.Drawing.Point(650, 370);
             this.setupMFA.Name = "setupMFA";
             this.setupMFA.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(86)))), ((int)(((byte)(90)))));
             this.setupMFA.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(194)))), ((int)(((byte)(165)))));
@@ -271,7 +271,7 @@ namespace megalodon
             this.setupMFA.OverrideDefault.Border.Rounding = 20;
             this.setupMFA.OverrideDefault.Border.Width = 1;
             this.setupMFA.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.setupMFA.Size = new System.Drawing.Size(124, 42);
+            this.setupMFA.Size = new System.Drawing.Size(138, 58);
             this.setupMFA.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(86)))), ((int)(((byte)(90)))));
             this.setupMFA.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(194)))), ((int)(((byte)(165)))));
             this.setupMFA.StateCommon.Back.ColorAngle = 45F;
@@ -286,7 +286,7 @@ namespace megalodon
             this.setupMFA.StateCommon.Border.Width = 1;
             this.setupMFA.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
             this.setupMFA.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.setupMFA.StateCommon.Content.ShortText.Font = new System.Drawing.Font("PMingLiU", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.setupMFA.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.setupMFA.StatePressed.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(101)))), ((int)(((byte)(102)))));
             this.setupMFA.StatePressed.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(79)))), ((int)(((byte)(67)))));
             this.setupMFA.StatePressed.Back.ColorAngle = 135F;
