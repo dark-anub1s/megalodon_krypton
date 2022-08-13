@@ -36,7 +36,9 @@ namespace megalodon
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.accountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.generateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.AccountData = new System.Windows.Forms.DataGridView();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.AccountData)).BeginInit();
             this.SuspendLayout();
             // 
             // kryptonPalette1
@@ -78,12 +80,13 @@ namespace megalodon
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(171)))), ((int)(((byte)(145)))));
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.accountToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(830, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1107, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -91,7 +94,7 @@ namespace megalodon
             // 
             this.fileToolStripMenuItem.ForeColor = System.Drawing.Color.Snow;
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // accountToolStripMenuItem
@@ -100,32 +103,46 @@ namespace megalodon
             this.generateToolStripMenuItem});
             this.accountToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.accountToolStripMenuItem.Name = "accountToolStripMenuItem";
-            this.accountToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.accountToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
             this.accountToolStripMenuItem.Text = "View";
             this.accountToolStripMenuItem.Click += new System.EventHandler(this.accountToolStripMenuItem_Click);
             // 
             // generateToolStripMenuItem
             // 
             this.generateToolStripMenuItem.Name = "generateToolStripMenuItem";
-            this.generateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.generateToolStripMenuItem.Size = new System.Drawing.Size(158, 26);
             this.generateToolStripMenuItem.Text = "Generator";
             this.generateToolStripMenuItem.Click += new System.EventHandler(this.generateToolStripMenuItem_Click);
             // 
+            // AccountData
+            // 
+            this.AccountData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.AccountData.Location = new System.Drawing.Point(12, 49);
+            this.AccountData.Name = "AccountData";
+            this.AccountData.RowHeadersWidth = 51;
+            this.AccountData.RowTemplate.Height = 24;
+            this.AccountData.Size = new System.Drawing.Size(1083, 458);
+            this.AccountData.TabIndex = 1;
+            this.AccountData.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.AccountData_CellContentClick);
+            // 
             // user_account
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(86)))), ((int)(((byte)(90)))));
-            this.ClientSize = new System.Drawing.Size(830, 481);
+            this.ClientSize = new System.Drawing.Size(1107, 592);
+            this.Controls.Add(this.AccountData);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "user_account";
             this.Palette = this.kryptonPalette1;
             this.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
             this.Load += new System.EventHandler(this.user_account_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.AccountData)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,5 +155,6 @@ namespace megalodon
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem accountToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem generateToolStripMenuItem;
+        private System.Windows.Forms.DataGridView AccountData;
     }
 }

@@ -16,6 +16,7 @@ namespace megalodon
 {
     public partial class user_registration : KryptonForm
     {
+        private PL.User user = new PL.User();
         string priKey;
         string pubKey;
         public user_registration()
@@ -58,6 +59,7 @@ namespace megalodon
 
             priKey = rsa.GetPrivateKey();
             pubKey = rsa.GetPublicKey();
+            //MessageBox.Show(pubKey);
 
             SaveFileDialog save = new SaveFileDialog();
 
@@ -74,6 +76,16 @@ namespace megalodon
                 write.Write(priKey);
                 write.Dispose();
             }
+        }
+
+        private void rsaKeyBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            user.Add_User(usernameBox.Text, pubKey, vault_name.Text, "12345");
         }
     }
 
@@ -95,7 +107,7 @@ namespace megalodon
             var xs = new XmlSerializer(typeof(RSAParameters));
             xs.Serialize(sw, _publicKey);
 
-            return sw.ToString();
+            return sw.ToString(); //System.Convert.ToBase64String(plainTextBytes);
         }
 
         public string GetPrivateKey()
@@ -105,7 +117,7 @@ namespace megalodon
 
             xs.Serialize(sw, _privayeKey);
 
-            return sw.ToString();
+            return  sw.ToString();
         }
     }
 }

@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>packages\Portable.BouncyCastle.1.9.0\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
     <Reference Include="ComponentFactory.Krypton.Docking">
       <HintPath>..\..\..\Documents\Krypton-Toolkit\Bin\ComponentFactory.Krypton.Docking.dll</HintPath>
     </Reference>
@@ -61,6 +64,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccessLayer.cs" />
     <Compile Include="login_ui.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +83,7 @@
     <Compile Include="pass_gen.Designer.cs">
       <DependentUpon>pass_gen.cs</DependentUpon>
     </Compile>
+    <Compile Include="PL\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="user_account.cs">
@@ -118,6 +123,7 @@
     <EmbeddedResource Include="user_registration.resx">
       <DependentUpon>user_registration.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -152,5 +158,9 @@
   <ItemGroup>
     <None Include="images\delete_history.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="images\vault_icon.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
